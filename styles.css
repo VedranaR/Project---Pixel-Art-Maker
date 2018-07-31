@@ -1,0 +1,98 @@
+/* Header */
+html {
+    overflow-y: scroll;
+    color: rgb(34,139,34);
+    background: url(https://images.unsplash.com/photo-1516914589923-f105f1535f88?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f412a6ee4af609b0e3f4f85248f2879f&auto=format&fit=crop&w=1950&q=80)
+}
+
+/* Content */
+body {
+    text-align: center;
+    font-family: "Alegreya SC", sans-serif;
+    border: 6px double rgb(34,139,34);
+    margin: 0;
+}
+
+h1 {
+    font-size: 65px;
+    margin: 0.2em;
+}
+
+input [type=number] {
+    width: 5em;
+    margin-left: 10px;
+}
+
+button {
+    font-family: "Alegreya SC", sans-serif;
+    background-color: rgb(192,192,192);
+    border-radius: 30px;
+    border: 1px solid rgb(34,139,34);
+}
+
+.canvas-builder {
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.canvas-builder div {
+    font-weight: bold;
+    width: 60px;
+    margin-right: 5px;
+}
+
+.grid-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2% 20px 2%;
+    background-color: rgb(240,255,255);
+    border: 2px solid rgb(69, 62, 75);
+}
+
+.grid-controls > * {
+    margin: 0.3em;
+}
+
+#create-grid,
+#reset-grid, {
+    width: 120px;
+}
+
+#color-scheme {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+tr {
+    height: 25px;
+}
+
+td {
+    width: 25px;
+}
+
+footer {
+    font-family: "Alegreya SC", sans-serif;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    text-decoration: none;
+}

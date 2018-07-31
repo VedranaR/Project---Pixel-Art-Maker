@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Vedrana's Pixel Art Maker</title>
+        <link href="https://fonts.googleapis.com/css?family=Alegreya SC" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- jQuery 3.2.1 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Vedrana's Pixel Art Maker</h1>
+        <br>
+        <h2>Choose Your Grid Size</h2>
+
+        <div class="grid-controls">
+            <label class="canvas-builder">
+            <div>Row</div>
+            <input type="number" id="input-rows" name="height" min="1" max="40" value="10">
+        </label>
+
+        <label class="canvas-builder">
+            <div>Column</div>
+            <input type="number" id="input-columns" name="width" min="1" max="40" value="10">
+        </label>
+
+        <div class="canvas-builder">
+            <button type="button" id="create-grid">Create Grid</button>
+            <button type="button" id="reset-grid">Reset Grid</button>
+        </div>
+            <input type="color" id="color-scheme">
+            <table id="canvas"></table>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="designs.js"></script>
+
+        <footer>
+            <br>
+            <p><a href="https://github.com/VedranaR" title="Twitter profile" target="_blank">by VedranaR, 2018</a>Photo by asoggetti on Unsplash</p>
+        </footer>
+    </body>
+</html>
